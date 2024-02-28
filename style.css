@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Inter:wght@400;600;900&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: whitesmoke;
+	color: white;
+	font-family: 'Dongle', sans-serif;
+	font-family: 'Inter', sans-serif;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header {
+	padding: 0 20px;
+	background-color: #EFEFF4;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#brand {
+	font-weight: bold;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+}
+
+#brand a {
+	color: greenyellow;
+}
+
+.navbar{
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+ul{
+	list-style: none;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+ul a{
+	color: #4F5463;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+ul li {
+	padding: 5px;
+	margin-left: 10px;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+ul li:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+nav {
+	top: 0px;
+	bottom: 0px;
+	left : 0px;
+	right: 0px;
+}
+
+#login,#signup{
+	border-radius: 5px;
+	padding: 5px 8px;
+}
+
+#login {
+	border: 1px solid #008891;
+}
+
+#login a{
+	color: #4F5463;
+}
+
+#signup{
+	border: none;
+	background-color: #008891;
+}
+
+#signup a{
+	color: #EFEFF4;
+}
+
+#hamburger-icon {
+	margin: auto 0;
+	display: none;
+	cursor: pointer;
+}
+#hamburger-icon div{
+	width: 35px;
+	height: 3px;
+	background-color: black;
+	margin: 6px 0;
+	transition: 0.4s;
+
+}
+
+.centered-container {
+    max-width: 1020px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.image-text{
+    text-align: left;
+    background-color: none;
+    color: white;
+    font-size: 4rem;
+	padding-left: 40px;
+	font-weight: bold;
+
+}
+.image-area {
+    background-image:url("./imgsrc/Coloum 1 about.png");
+    background-position: center center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+	padding-top: 150px;
+    padding-bottom: 200px;
+}
+
+.button3 {
+  background-color: #008891;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin-left: 40px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.single-service {
+    text-align: center;
+    margin-left: 25px;
+    margin-top: 25px;
+	
+}
+
+.left-container {
+    max-width: 1020px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.client{
+  float: left;
+  width: 25%;
+  padding: 30px;
+}
+
+.wrapper2:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.analytics-area{
+	background-image:url("./imgsrc/coloum 2.png");
+    background-position: center center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+	padding-top: 0px;
+    padding-bottom: 400px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	padding: 50px;
+}
+
+.analytics {
+	text-align: left;
+    background-color: none;
+    color: white;
+    font-size: 4rem;
+	font-weight: bold;
+
+}
+
+.content{
+ 
+
+}
+
+.monitoring-area{
+	padding-top: 10px;
+    padding-bottom: 500px;
+
+}
+
+.monitoring{
+	text-align: left;
+    background-color: none;
+    color: #4F5463;
+    font-size: 4rem;
+	font-weight: bold;
+}
+
+.content2{
+	text-align: left;
+    background-color: none;
+    color: #4F5463;
+    font-size: 1rem;
+	padding-top: 15px;
+	font-weight: normal;
+}
+
+.publishing-area{
+	background-image:url("./imgsrc/coloum 2.png");
+    background-position: center center;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+	padding-top: 0px;
+    padding-bottom: 500px;
+}
+
+.publishing{
+	text-align: left;
+    background-color: none;
+    color: white;
+    font-size: 4rem;
+	font-weight: bold;
+}
+
+.context3{
+	text-align: left;
+    background-color: none;
+    color: white;
+    font-size: 1rem;
+	padding-top: 15px;
+	font-weight: normal;
+}
+
+.open .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+	transform: rotate(-45deg) translate(-6px, 6px);
+}
+
+.open .bar2{
+	opacity: 0;
+}
+
+.open .bar3{
+	-webkit-transform: rotate(-45deg) translate(6px, -8px);
+	transform: rotate(-45deg) translate(6px, -8px);
+}
+
+.open .mobile-menu{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: grey;
+	
+}
+
+.mobile-menu{
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 0;
+	height: calc(100vh - 50px);
+	width: 100%;
+}
+
+.mobile-menu li{
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+	header nav {
+		display: none;
+	}
+	
+	#hamburger-icon{
+	display: block;
+	}
+}
+	.bar1 .bar2 .bar3{
+	background-color: #4F5463;
+}
+
+@media screen and (min-width: 700px){
+	    .single-service {
+        width: 25%;
+        float: left;
+		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		
+    }
+
+}
